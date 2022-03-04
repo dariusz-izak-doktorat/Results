@@ -1,0 +1,28 @@
+<OptionsWrapper>
+  <Name><![CDATA[Set Paired Reads]]></Name>
+  <OperationId>com.biomatters.plugins.groupSequences.SetPairedReadsOperation</OperationId>
+  <Options>
+    <option name="verifySequenceNames">true</option>
+    <option name="appendSuffixToMakeUnique">true</option>
+    <option name="promptToVerifyNamesAndMakeNamesUnique">true</option>
+    <childOption name="pairBy">
+      <option name="pairBy">useExistingPairs</option>
+      <option name="linker">standardLinker454Titanium</option>
+      <option name="linkerMismatches">1</option>
+      <option name="deleteUnpairedSource">true</option>
+    </childOption>
+    <childOption name="relativeOrientation">
+      <option name="relativeOrientation">forwardReverse</option>
+    </childOption>
+    <childOption name="expectedDistance">
+      <option name="expectedDistance">700</option>
+    </childOption>
+    <childOption name="dataType">
+      <option name="dataType">Illumina</option>
+      <option name="pairedType">Paired End</option>
+    </childOption>
+  </Options>
+  <LastModified>1496233435700</LastModified>
+  <OperationType>Operation</OperationType>
+  <UUID>55ebeaea-3379-4184-ad65-2ed76254724e</UUID>
+</OptionsWrapper>
