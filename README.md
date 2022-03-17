@@ -1,5 +1,6 @@
 # Results
 Results 
 Here are the results of the analysis performed by drafts of the notebooks.
-Już prawie cały genom jest wgrany.
+Wgranie ostatnich chromosomów zajmie jeszcze dwa-trzyt tygodnie. Przydałby się ktoś, kto umie ogarnąć notebooki.
+
 
